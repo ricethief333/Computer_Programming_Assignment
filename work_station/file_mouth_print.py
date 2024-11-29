@@ -3,7 +3,7 @@ import csv
 def file_mouth_printing():
     with open('20231231.csv') as f:
         reader = csv.reader(f)
-        header = reader.__next__()
+        reader.__next__()
         data = [row[1:] for row in reader]
 
     subject_scores = {}
