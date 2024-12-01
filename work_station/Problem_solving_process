@@ -13,7 +13,7 @@ main.py
 그 후, 사용자로부터 열람하고 싶은 년도와 과목을 입력받는다. 
 그 다음에는, file_mouth_printing 함수로 제공받은 딕셔너리를 data_processing 함수를 이용해 가공한다.
 데이터를 가공한 후, data_processing 함수는 리스트의 형태로 열람하는 과목의 특정 표준점수와 그에 해당하는 남성 수, 여성 수를 반환한다.
-
+마지막으로 graph 모듈에서 graph_generator 함수를 import 하여 x축, y축에 해당하는 값을 입력해주면 원하는 결과를 얻을 수 있다.
 
 graph.py
 이 파일은 main.py에서 가공한 표준점수와 학생 수 데이터를 parameter로 받아서 표준점수 분포 그래프를 만들고 출력한다.
