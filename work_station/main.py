@@ -1,6 +1,7 @@
 #main.py
 
 from file_mouth_print import file_mouth_printing
+from graph import graph_generator
 
 user_input_year = int(input("열람 년도 입력: "))
 user_input_subject = input("열람 과목 입력: ")
@@ -16,7 +17,10 @@ def data_processing(data):
 
     return standarized_score, male, female
 
-
+x = data_processing(file_mouth_printing)[0]
+male = data_processing(file_mouth_printing)[1]
+female = data_processing(file_mouth_printing)[2]
+graph_generator(x, male, female)
 
 
 
