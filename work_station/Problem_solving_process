@@ -14,3 +14,10 @@ main.py
 그 다음에는, file_mouth_printing 함수로 제공받은 딕셔너리를 data_processing 함수를 이용해 가공한다.
 데이터를 가공한 후, data_processing 함수는 리스트의 형태로 열람하는 과목의 특정 표준점수와 그에 해당하는 남성 수, 여성 수를 반환한다.
 
+graph.py
+이 파일은 main.py에서 가공한 표준점수와 학생 수 데이터를 parameter로 받아서 표준점수 분포 그래프를 만들고 출력한다.
+matplotlib.pyplot을 import하여 그래프가 그려질 figure을 생성하고, 남학생 분포와 여학생 분포를 한 서브 플롯에 모두 표시한다.
+그래프의 x축은 data_processing 함수에서 반환한 표준 점수 값이며, y축은 해당 점수에 해당하는 남학생 / 여학생 수이다.
+남학생 그래프는 파란색 직선으로, 여학생 그래프는 빨간색 직선으로 표시했으며 그래프 제목과 축 이름, 범례를 표시하였다.
+해당 함수는 x, male, female이라는 parameter을 받아 x를 x축 데이터, (male / female)을 y축 데이터로 한 그래프를 표시할 뿐이며,
+parameter에 가공된 데이터를 집어넣는 작업은 main.py에서 수행될 것이다.
