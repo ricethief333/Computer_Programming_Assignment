@@ -1,8 +1,6 @@
 #graph.py
 
-from file_mouth_print import file_mouth_printing
 import matplotlib.pyplot as plt
-
 
 def graph_generator(x, male, female):
     fig = plt.figure()
