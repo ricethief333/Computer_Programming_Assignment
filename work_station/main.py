@@ -3,9 +3,9 @@
 from file_mouth_print import file_mouth_printing
 from graph import graph_generator
 
-print("열람 가능 년도: 2024")
+print("열람 가능 년도: 2020, 2021, 2022, 2023")
 user_input_year = int(input("열람 년도 입력: "))
-key = list(file_mouth_printing().keys())
+key = list(file_mouth_printing(user_input_year).keys())
 for i in key:
     print(f"{key.index(i) + 1}. {i}")
 user_input_subject = int(input("열람 과목 번호 입력: "))
