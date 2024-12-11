@@ -43,7 +43,10 @@ file_mouth_print_New.py를 제작 하였음.
 기존 file_mouth_print.py에서 반환하는 딕셔너리를 보면, 숫자들의 끝 부분에 공백이 존재하였음.
 strip()을 이용해 공백을 없애는 부분을 추가하였음.
 
-<<준하 부분 추가좀
+2024 12 09 오후 3시 경
+main_New.py
+파일의 가짓수가 늘어남에 따라, 사용자가 선택한 파일에 따라 다른 결과가 나오도록 조정함.
+이를 위해 file_mouth_printing 함수에 매개변수로 사용자가 입력한 user_input_year을 넣음 
 
 2024 12 09 오후 5시 경
 graph_New.py 제작
